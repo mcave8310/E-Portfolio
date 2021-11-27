@@ -147,8 +147,9 @@ footer#page-footer {
   color: black;
   font-size: 18px;
   font-family: Georgia, serif;
+  background-color: blue;
 }
 footer p{
   font-size: 14px;
-  color: black;
+  color: #fff;
 }
