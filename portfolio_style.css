@@ -16,7 +16,12 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 60px;
 }
+.two {
+  padding-bottom: 2em;
+}
+
 h2 {
   text-align: center;
 }
@@ -37,7 +42,7 @@ h4 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   border: 1px black solid;
-  margin-left: 1.5em;
+  margin-left: em;
   margin-top: -8px;
   margin-bottom: -8px;
 
@@ -58,7 +63,7 @@ h4 {
   margin-left: 1em;
 }
 .grid_bullet {
-  margin-left: -8px;
+  margin-left: 15px;
 }
 
 figure {
@@ -103,6 +108,13 @@ p {
   font-size: px;
   margin-left: 30px;
 }
+p.h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-bottom: 2.5em;
+}
 
 div.goal {
   border: 1px black solid;
@@ -117,7 +129,6 @@ nav ul {
 @media all and (min-width: 415px) {
   nav ul {
     display: flex;
-    justify-content: center;
     gap: 8px;
   }
 }
@@ -138,21 +149,21 @@ header nav ul li a:hover {
 }
 header nav ul {
   font-size: 20px;
-  text-align: right;
 }
 
+footer nav ul li{
+
+}
 footer nav ul li a:hover {
   text-decoration: underline;
   color: #2d4386;
 }
-
 footer#page-footer {
-  text-align: center;
-  color: black;
   font-size: 18px;
   background-color: blue;
 }
 footer p{
   font-size: 14px;
   color: #fff;
+  text-align: center;
 }
