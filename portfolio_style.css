@@ -14,6 +14,12 @@ body {
   font-size: 22px;
 }
 
+article {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
@@ -21,9 +27,12 @@ h1 {
 .two {
   padding-bottom: 2em;
 }
-
 h2 {
   text-align: center;
+}
+h2#resume {
+  font-size: 40px;
+  margin-bottom: -8px;
 }
 h3 {
   text-align: left;
@@ -42,16 +51,20 @@ h4 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   border: 1px black solid;
-  margin-left: em;
   margin-top: -8px;
   margin-bottom: -8px;
-
 }
 @media all and (max-width: 499px) {
   .grid {
     grid-template-columns: fit-content(100%);
     grid-gap: 0px;
   }
+}
+#grid_edu {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 .exp {
   text-align: left;
@@ -115,6 +128,13 @@ p.h1 {
   margin-right: 5em;
   padding-bottom: 2.5em;
 }
+p.outcome {
+  font-weight: bold;
+}
+
+.art_indent {
+  margin-left: 4em;
+}
 
 div.goal {
   border: 1px black solid;
@@ -161,6 +181,7 @@ footer nav ul li a:hover {
 footer#page-footer {
   font-size: 18px;
   background-color: blue;
+  color: #fff;
 }
 footer p{
   font-size: 14px;
