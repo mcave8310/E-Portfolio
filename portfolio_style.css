@@ -1,5 +1,5 @@
 body {
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Times New Roman", serif;
   background-color: #f2f2f2;
 }
 
@@ -18,7 +18,7 @@ body {
 button {
   background-color: #fff;
   color: #0d0d0d;
-  font-size: 25px;
+  font-size: 20px;
   border-color: #fff;
   border-radius: 99%;
   padding: 10px;
@@ -53,16 +53,19 @@ article {
 h1 {
   text-align: center;
   font-size: 60px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 .two {
   padding-bottom: 2em;
 }
 h2 {
   text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
 }
 h2#resume {
   font-size: 40px;
   margin-bottom: -8px;
+  font-family: "Times New Roman", serif;
 }
 h3 {
   text-align: left;
@@ -167,6 +170,9 @@ p.h1 {
 p.outcome {
   font-weight: bold;
 }
+header p {
+  font-family: "Trebuchet MS", sans-serif;
+}
 
 .art_indent {
   margin-left: 4em;
@@ -181,6 +187,7 @@ nav ul {
   list-style: none;
   padding: 0px;
   text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 @media all and (min-width: 415px) {
@@ -208,15 +215,15 @@ header nav ul {
   font-size: 20px;
 }
 
-footer nav ul li{
-
+footer nav ul {
+  font-size: 20px;
 }
 footer nav ul li a:hover {
   text-decoration: underline;
   color: #2d4386;
 }
 footer#page-footer {
-  font-size: 18px;
+  font-family: "Trebuchet MS", sans-serif;
   background-color: blue;
   color: #fff;
   margin-top: 60px;
@@ -225,4 +232,8 @@ footer p{
   font-size: 14px;
   color: #fff;
   text-align: center;
+}
+
+ol li {
+  margin-left: 1em;
 }
