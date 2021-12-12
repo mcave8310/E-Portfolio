@@ -45,7 +45,7 @@ body.darkMode footer p{
 }
 
 article {
-  max-width: 900px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -130,7 +130,7 @@ img {
 figcaption {
   font-family: "Trebuchet MS", sans-serif;
 }
-figure.main-image {
+figure {
   border-color: #73264d;
   padding: 6px;
   border-width: 6px;
@@ -175,7 +175,7 @@ header p {
 }
 
 .art_indent {
-  margin-left: 4em;
+  margin-left: 3.5em;
 }
 
 div.goal {
