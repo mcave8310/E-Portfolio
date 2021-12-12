@@ -170,6 +170,7 @@ p.h1 {
 p.outcome {
   font-weight: bold;
 }
+
 header p {
   font-family: "Trebuchet MS", sans-serif;
 }
@@ -235,6 +236,8 @@ footer p{
 }
 
 ol li {
+  display: ;
+  margin-left:
 }
 @media all and (max-width: 499px) {
   ol li {
