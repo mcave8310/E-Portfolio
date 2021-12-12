@@ -146,7 +146,6 @@ figcaption {
     max-width: 50%;
   }
 }
-
 figure.last-image {
   display: block;
   max-width: 100%;
@@ -188,41 +187,24 @@ nav ul {
   padding: 0px;
   text-align: center;
   font-family: "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
-
 @media all and (min-width: 415px) {
   nav ul {
     display: flex;
     gap: 8px;
   }
 }
-
 nav ul li a {
   color: #fff;
   text-decoration: none;
   display: block;
   padding: 4px;
 }
-nav ul li a:visited {
-  color: #;
-}
-
-header nav {
-
-}
-header nav ul {
-  font-size: 20px;
-}
-header nav ul li a:hover {
+nav ul li a:hover {
   background-color: #663ba3;
 }
 
-footer nav ul {
-  font-size: 20px;
-}
-footer nav ul li a:hover {
-  background-color: #663ba3;
-}
 footer#page-footer {
   font-family: "Trebuchet MS", sans-serif;
   background-color: #279696;
@@ -235,10 +217,6 @@ footer p{
   text-align: center;
 }
 
-ol li {
-  display: ;
-  margin-left:
-}
 @media all and (max-width: 499px) {
   ol li {
     margin-left: 1em;
