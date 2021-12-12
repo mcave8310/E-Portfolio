@@ -5,6 +5,7 @@ body {
 
 .gradient {
   background-image: url(cool-background.png);
+  background-color: #279696;
   background-repeat: no-repeat;
   background-size: 100%;
   color: #fff;
