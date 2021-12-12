@@ -21,6 +21,12 @@ body {
   font-size: 22px;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: left;
+}
+
 button {
   background-color: #fff;
   color: #0d0d0d;
@@ -138,6 +144,13 @@ figcaption {
   figure img {
     max-width: 50%;
   }
+}
+figure.last-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
