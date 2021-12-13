@@ -11,7 +11,7 @@ body {
   color: #fff;
   padding-top: 2em;
 }
-@media all and (max-width: 499px) {
+@media all and (max-width: 1000px) {
   .gradient {
     background-size: auto 100%;
   }
@@ -35,7 +35,6 @@ button {
   border-color: #fff;
   border-radius: 99%;
   padding: 10px;
-  margin-left: 5px;
 }
 
 body.darkMode {
@@ -67,6 +66,11 @@ h1 {
 }
 .two {
   padding-bottom: 2em;
+}
+@media all and (max-width: 400px) {
+  h1 {
+    font-size: 45px;
+  }
 }
 h2 {
   text-align: center;
@@ -165,9 +169,16 @@ p {
 p.h1 {
   font-size: 30px;
   text-align: center;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
   padding-bottom: 2.5em;
+}
+@media all and (max-width: 400px) {
+  p.h1 {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 p.outcome {
   font-weight: bold;
