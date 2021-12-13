@@ -178,7 +178,7 @@ p.h1 {
     font-size: 22px;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 }
 p.outcome {
   font-weight: bold;
@@ -232,6 +232,10 @@ footer p{
   font-size: 14px;
   color: #fff;
   text-align: center;
+}
+
+ul li a:visited {
+  color: #990000;
 }
 
 ol li {
