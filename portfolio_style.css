@@ -123,9 +123,11 @@ h4 {
 }
 .bullet {
   margin-left: 1em;
+  line-height: 1.3;
 }
 .grid_bullet {
   margin-left: 15px;
+  line-height: 1.3;
 }
 
 figure {
@@ -158,6 +160,7 @@ p {
   color: #;
   font-size: 16px;
   margin-left: 30px;
+  line-height: 1.4;
 }
 p.h1 {
   font-size: 30px;
@@ -220,6 +223,9 @@ footer p{
   text-align: center;
 }
 
+ol li {
+  line-height: 1.4;
+}
 @media all and (max-width: 499px) {
   ol li {
     margin-left: 1em;
