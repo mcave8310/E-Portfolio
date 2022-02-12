@@ -182,6 +182,7 @@ p.h1 {
 }
 p.outcome {
   font-weight: bold;
+  font-size: 20px;
 }
 p.center {
   text-align: center;
