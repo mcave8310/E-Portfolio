@@ -220,7 +220,7 @@ nav ul li a {
   padding: 4px;
 }
 nav ul li a:hover {
-  background-color: #663ba3;
+  background-color: #6600ff;
 }
 
 footer#page-footer {
@@ -235,7 +235,7 @@ footer p{
 }
 
 ul li a:visited {
-  color: #990000;
+  color: #b30000;
 }
 
 ol li {
