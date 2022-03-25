@@ -133,6 +133,11 @@ h4 {
   margin-left: 15px;
   line-height: 1.3;
 }
+.grid_bullet_2 {
+  margin-top: -3px;
+  margin-left: 15px;
+  line-height: 1.3;
+}
 
 figure {
   margin-left: auto;
