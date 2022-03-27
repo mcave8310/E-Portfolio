@@ -174,8 +174,8 @@ p {
 p.h1 {
   font-size: 30px;
   text-align: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
   padding-bottom: 2.5em;
 }
 @media all and (max-width: 400px) {
