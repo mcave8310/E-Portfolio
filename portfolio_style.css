@@ -5,15 +5,14 @@ body {
 
 .gradient {
   background-image: url(cool-background.png);
-  background-color: #00b386;
+  background-color: #009999;
   background-repeat: no-repeat;
   background-size: 100%;
   color: #fff;
-  padding-top: 2em;
 }
 @media all and (max-width: 825px) {
   .gradient {
-    background-size: auto 100%;
+    background-size: 100% 100%;
   }
 }
 
@@ -54,7 +53,7 @@ body.darkMode footer p{
 }
 
 article {
-  max-width: 850px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,7 +151,7 @@ img {
 figcaption {
   font-family: "Trebuchet MS", sans-serif;
 }
-@media all and (max-width: 499px) {
+@media all and (max-width: 825px) {
   figure img {
     max-width: 50%;
   }
@@ -218,6 +217,11 @@ nav ul {
     gap: 8px;
   }
 }
+@media all and (max-width: 800px) {
+  nav ul {
+    font-size: 14px;
+  }
+}
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -241,13 +245,4 @@ footer p{
 
 ul li a:visited {
   color: #b30000;
-}
-
-ol li {
-  line-height: 1.4;
-}
-@media all and (max-width: 499px) {
-  ol li {
-    margin-left: 1em;
-  }
 }
