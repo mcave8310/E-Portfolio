@@ -137,6 +137,11 @@ h5 {
   margin-left: 2.5em;
   line-height: 1.3;
 }
+.bullet_g {
+  margin-left: 2.5em;
+  line-height: 1.3;
+  font-size: 14pt;
+}
 .grid_bullet {
   margin-left: 1.75em;
   line-height: 1.3;
